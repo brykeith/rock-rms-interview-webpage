@@ -7,6 +7,10 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700 !important;
@@ -20,6 +24,7 @@ h2 {
 p {
     font-size: 0.93rem;
     margin-bottom: 0;
+    font-weight: 300;
 }
 
 svg {
