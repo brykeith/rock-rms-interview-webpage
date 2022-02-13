@@ -1,0 +1,105 @@
+:root {
+    --main-bg-color: #f2f2f2;
+}
+
+html {
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-family: 'Titillium Web', 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 0.93rem;
+    margin-bottom: 0;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+    max-width: 72px;
+}
+
+.btn-outline-dark {
+    border-width: 2px;
+}
+
+.img-fit {
+    position: relative;
+    padding-bottom: 100%;
+}
+
+.img-fit img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img--hero {
+    object-position: bottom;
+}
+
+.svg-wrap {
+    min-height: 80px;
+}
+
+.heading--mini {
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.about-us img {
+    max-height: 400px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.bg-custom-gray {
+    background-color: var(--main-bg-color);
+}
+
+.associate-cards {
+    margin-top: 3rem;
+}
+
+.associate-cards__card--image {
+    object-position: top;
+}
+
+.services svg * {
+    fill: #fff;
+}
+
+.more-info img {
+    max-height: 400px;
+    object-position: center;
+    object-fit: cover;
+}
+
+@media (min-width: 576px) {
+    .about-us img {
+        max-height: 700px;
+    }
+
+    .more-info img {
+        max-height: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .associate-cards {
+        margin-top: -280px;
+    }
+}
